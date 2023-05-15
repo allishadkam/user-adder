@@ -13,7 +13,7 @@ const UserAdd = (props) => {
         if(+enterdage<1){
             return;  
         }
-        
+        props.onadduser(enterdusername,enterdage)
         setenterdusername('');
         setenterdage('');
         }
